@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-s1 {
+    position: relative;
+    left: 200px;
+}
+
+.section-s1__logo img {
+    width: 48px;
+    left: 150px;
+    position: absolute;
+    top: 10px;
+
+}
+
+.section-s1__navbar-menu {
+    display: flex;
+    font-weight: inherit;
+    gap: 30px;
+    margin-right: 280px;
+
+
+}
+
+.section-s1__navbar-menu p:focus {
+    background-color: grey;
+    border: solid grey 1px;
+    outline: none;
+
+}
+
+
+.section-s1__navbar-menu p:hover {
+    transition: 1s;
+    background-color: transparent;
+    color: black;
+    border: solid grey;
+}
+
+.section-s1__login h3 {
+    margin-right: 40px;
+    position: relative;
+    top: 20px;
+    right: 200px;
+}
+
+.section-s1__button {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    position: relative;
+    bottom: 15px;
+    right: 120px;
+}
+
+.section-s2 {
+    display: flex;
+    padding: 10px;
+}
+
+.section-s2__title {
+    padding: 20px;
+    font-size: 48px;
+    margin-left: 590px;
+}
+
+.section-s2__menu {
+    display: flex;
+    font-size: 18px;
+    gap: 30px;
+    padding: 10px;
+    margin-left: 310px;
+}
+
+.search-all:hover {
+    color: rgb(172, 172, 172);
+}
+
+.hotels:hover {
+    color: rgb(172, 172, 172);
+    border-bottom: rgb(85, 85, 85) 3px solid;
+}
+
+.things:hover {
+    color: rgb(172, 172, 172);
+    border-bottom: rgb(85, 85, 85) 3px solid;
+}
+
+.res:hover {
+    color: rgb(172, 172, 172);
+    border-bottom: rgb(85, 85, 85) 3px solid;
+}
+
+.flights:hover {
+    color: rgb(172, 172, 172);
+    border-bottom: rgb(85, 85, 85) 3px solid;
+}
+
+.holidays:hover {
+    color: rgb(172, 172, 172);
+    border-bottom: rgb(85, 85, 85) 3px solid;
+}
+
+.search-all {
+    border-bottom: black 3px solid;
+}
+
+.section-s2__seachbar {
+    position: absolute;
+    left: 40px;
+}
+
+.search-input {
+    outline: none;
+    margin-left: 380px;
+    height: 20px;
+    padding: 20px;
+    font-size: 16px;
+    border: rgb(208, 208, 208) 1px solid;
+    border-radius: 40px;
+    box-shadow: rgba(53, 53, 53, 0.16) 0px 3px 6px, rgba(78, 78, 78, 0.23) 0px 3px 6px;
+    width: 700px;
+}
+
+.section-s2__button {
+    position: relative;
+    left: 1015px;
+    bottom: 54px;
+    border-radius: 24px;
+    padding: 14px 24px;
+    font-size: 16px;
+    background-color: #34e0a1;
+    color: black;
+    border: none;
+}
+
+.home img {
+    padding: 20px;
+    margin-left: 195px;
+    width: 72%;
+    height: 72%;
+}
+
+.section-s3__title {
+    padding: 20px;
+    margin-left: 210px;
+}
+
+.section-s3__title p {
+    margin-left: 2px;
+}
+
+.section-s3__image {
+    margin-left: 220px;
+    display: flex;
+    gap: 15px;
+}
+
+.section-s3__image img {
+    width: 20%;
+    border-radius: 10px;
+    height: 20%;
+}
+
+.section-s4 {
+    padding: 20px;
+    margin: 50px;
+    background-color: #F2F1EC;
+    width: 92%;
+    height: 400px;
+}
+
+.section-s4__title,
+h1 {
+    font-size: 24px;
+    margin-left: 160px;
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+
+.fa-regular,
+.fa-heart {
+    transition: 2s;
+    position: relative;
+    bottom: 75%;
+    right: 40px;
+    color: white;
+}
+
+.container-box img {
+    width: 350px;
+    height: 290px;
+    border-radius: 10px;
+
+}
+
+.dream-trip {
+    padding: 10px;
+    margin: 10px;
+}
+
+.dream-trip__title {
+    margin-left: 210px;
+    padding: 10px;
+}
+
+.dreamtrip__s5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 220px;
+}
+
+.dreamtrip-image img {
+    width: 250px;
+    height: 250px;
+    float: center;
+    border-radius: 10px;
+}
+
+.dreamtrip-image p {
+    text-align: center;
+}
+
+.top-destinations{
+    padding: 10px;
+    margin: 10px;
+}
+.top-des__title{
+    margin-left: 190px;
+    padding: 20px;
+}
+.top-des__s5{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left:200px ;
+}
+
+.top-des__image img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.top-des__image p{
+    text-align: center;
+}
+
+.trip-banner img{
+        padding: 23px;
+        width: 97%;
+        height: 600px;
+}
+
+.section-six{
+    padding: 10px;
+    margin: 10px;
+    width: 97%;
+    height: 300px;
+    background-color: #F2F2F2;
+}
+
+.section-six p:hover{
+    background-color: transparent;
+    color: gray;
+
+}
+.section-six__abouttripadvisor{
+    font-weight:300;
+    display: flex;
+    margin: 10px;
+    gap: 70px;
+}
+.section-six__s1{
+    margin-left: 60px;
+}
+
+.section-six__s4{
+    position: relative;
+    top: 140px;
+    right: 250px;
+    
+}
+
+.section-six__s5 img{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 200px;
+    right: 890px;
+}
+
+.section-six__desc{
+    position: relative;
+    top: 82%;
+    right: 850px;
+}
