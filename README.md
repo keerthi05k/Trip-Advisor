@@ -11,7 +11,7 @@ Key Features:
 
 This project not only strengthened my understanding of HTML and CSS but also deepened my appreciation for the importance of responsive design and clean code. I’m proud of how it turned out and excited to continue building more projects like this!
 
-🔗 Check out the project here: [Insert Link to Your Project]  
+🔗 Check out the project here: [https://keerthi05k.github.io/Trip-Advisor/]  
 💻 Tech Stack: HTML, CSS (Flexbox)
 
 I’d love to hear your feedback or thoughts! If you’re working on similar projects or have tips to share, let’s connect and chat. 🚀
